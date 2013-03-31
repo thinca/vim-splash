@@ -1,0 +1,70 @@
+*splash.txt*	Changes the splash of Vim as you like.
+
+Version: 1.0
+Author : thinca <thinca+vim@gmail.com>
+License: zlib License
+
+==============================================================================
+CONTENTS					*splash-contents*
+
+INTRODUCTION			|splash-introduction|
+INTERFACE			|splash-interface|
+  COMMANDS			  |splash-commands|
+  FUNCTIONS			  |splash-functions|
+CUSTOMIZING			|splash-customizing|
+CHANGELOG			|splash-changelog|
+
+
+
+==============================================================================
+INTRODUCTION					*splash-introduction*
+
+*splash* is a Vim plugin to change the splash of Vim instead of |:intro|.
+
+Requirements:
+- Vim 7.3 or later
+
+Latest version:
+https://github.com/thinca/vim-splash
+
+
+
+==============================================================================
+INTERFACE					*splash-interface*
+
+------------------------------------------------------------------------------
+COMMANDS					*splash-commands*
+
+:Splash [file]					*:Splash*
+	Shows the splash into the current twindow.  [file] is a filename.
+	If [file] is omitted, |g:splash#path| is used.
+
+
+------------------------------------------------------------------------------
+FUNCTIONS					*splash-functions*
+
+splash#show({file})				*splash#show()*
+splash#show({lines})
+	Shows the splash into the current twindow.
+	{file} is a filename.
+	{lines} is a |List| of string.  This is treated as content directly.
+
+
+
+==============================================================================
+CUSTOMIZING					*splash-customizing*
+
+g:splash#path					*g:splash#path*
+	The default splash file.
+
+
+
+==============================================================================
+CHANGELOG					*splash-changelog*
+
+1.0	2013-04-01
+	- Initial version.
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
