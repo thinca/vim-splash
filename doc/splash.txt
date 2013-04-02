@@ -12,6 +12,7 @@ INTERFACE			|splash-interface|
   COMMANDS			  |splash-commands|
   FUNCTIONS			  |splash-functions|
 CUSTOMIZING			|splash-customizing|
+SPECIAL THANKS			|splash-special-thanks|
 CHANGELOG			|splash-changelog|
 
 
@@ -56,6 +57,15 @@ CUSTOMIZING					*splash-customizing*
 
 g:splash#path					*g:splash#path*
 	The default splash file.
+
+
+
+==============================================================================
+SPECIAL THANKS					*splash-special-thanks*
+
+A sample file "sample/vimgirl.txt" was created by @shiwano.
+He gave me the permission which includes this file in plugin.  Thanks!
+Original: https://gist.github.com/shiwano/5276921
 
 
 
