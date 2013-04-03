@@ -28,7 +28,7 @@ function! splash#show(file)
     if !filereadable(a:file)
       throw 'splash: Can not read file: ' . a:file
     endif
-    let content = readfile(a:file)
+    let content = map(readfile(a:file), 'iconv(v:val, "utf-8", &encoding)')
   elseif type(a:file) == type([])
     let content = a:file
   else

@@ -57,6 +57,7 @@ CUSTOMIZING					*splash-customizing*
 
 g:splash#path					*g:splash#path*
 	The default splash file.
+	Splash file must be written by utf-8.
 
 
 
