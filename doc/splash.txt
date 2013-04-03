@@ -1,6 +1,6 @@
 *splash.txt*	Changes the splash of Vim as you like.
 
-Version: 1.0
+Version: 1.1
 Author : thinca <thinca+vim@gmail.com>
 License: zlib License
 
@@ -72,6 +72,10 @@ Original: https://gist.github.com/shiwano/5276921
 
 ==============================================================================
 CHANGELOG					*splash-changelog*
+
+1.1	2013-04-03
+	- Fix the folding bug.
+	- FIx the encoding bug.
 
 1.0	2013-04-01
 	- Initial version.

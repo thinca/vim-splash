@@ -1,5 +1,5 @@
 " Changes the splash of Vim as you like.
-" Version: 1.0
+" Version: 1.1
 " Author : thinca <thinca+vim@gmail.com>
 " License: zlib License
 
