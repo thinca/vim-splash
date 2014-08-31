@@ -16,6 +16,7 @@ command! -nargs=? -complete=file Splash call splash#command(<q-args>)
 augroup plugin-splash
   autocmd!
   autocmd VimEnter * nested call splash#intro()
+  autocmd StdinReadPre * autocmd! plugin-splash VimEnter
 augroup END
 
 let &cpo = s:save_cpo
