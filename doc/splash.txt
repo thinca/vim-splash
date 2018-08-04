@@ -37,7 +37,7 @@ INTERFACE					*splash-interface*
 COMMANDS					*splash-commands*
 
 :Splash [file]					*:Splash*
-	Shows the splash into the current twindow.  [file] is a filename.
+	Shows the splash into the current window.  [file] is a filename.
 	If [file] is omitted, |g:splash#path| is used.
 
 
@@ -46,7 +46,7 @@ FUNCTIONS					*splash-functions*
 
 splash#show({file})				*splash#show()*
 splash#show({lines})
-	Shows the splash into the current twindow.
+	Shows the splash into the current window.
 	{file} is a filename.
 	{lines} is a |List| of string.  This is treated as content directly.
 
