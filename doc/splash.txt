@@ -12,6 +12,7 @@ INTERFACE			|splash-interface|
   COMMANDS			  |splash-commands|
   FUNCTIONS			  |splash-functions|
 CUSTOMIZING			|splash-customizing|
+INTEGRATION			|splash-integration|
 SPECIAL THANKS			|splash-special-thanks|
 CHANGELOG			|splash-changelog|
 
@@ -67,6 +68,21 @@ g:splash#enable					*g:splash#enable*
 	let g:splash#enable = stridx(&shortmess, 'I') == -1
 <
 
+g:splash#dirs					*g:splash#dirs*
+	Directories where splash files exist.
+	Default value:
+>
+	let g:splash#dirs = []
+<
+
+==============================================================================
+INTEGRATION					*splash-integration*
+
+leaderf
+	See <https://github.com/Yggdroot/LeaderF>.
+>
+	Leaderf splash
+<
 
 ==============================================================================
 SPECIAL THANKS					*splash-special-thanks*

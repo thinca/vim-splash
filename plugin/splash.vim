@@ -22,5 +22,20 @@ if get(g:, 'splash#enable', stridx(&shortmess, 'I') == -1)
   augroup END
 endif
 
+if !exists('g:Lf_Extensions')
+  let g:Lf_Extensions = {}
+endif
+
+let g:Lf_Extensions.splash = {
+      \ 'source': 'leaderf#splash#source',
+      \ 'accept': 'leaderf#splash#accept',
+      \ 'highlights_def': {
+      \ 'Lf_hl_splashTitle': '.*',
+      \ },
+      \ 'highlights_cmd': [
+      \ 'hi link Lf_hl_splashTitle Directory',
+      \ ],
+      \ }
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
