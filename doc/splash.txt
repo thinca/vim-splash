@@ -59,6 +59,13 @@ g:splash#path					*g:splash#path*
 	The default splash file.
 	Splash file must be written by utf-8.
 
+g:splash#enable					*g:splash#enable*
+	Bool variable which determine whether splash when VimEnter.
+	Default value:
+>
+	" if &shortmess doesn't contain 'I', vim will splash
+	let g:splash#enable = stridx(&shortmess, 'I') == -1
+<
 
 
 ==============================================================================
